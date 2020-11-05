@@ -1,0 +1,11 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .user-info {
+        text-align: right;
+    }
+    .settings-icon {
+        cursor: pointer;
+    }
+}

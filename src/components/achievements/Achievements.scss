@@ -1,0 +1,18 @@
+.achievements-container {
+  display: flex;
+  border-top: 1px solid #DCDCE0;
+  border-bottom: 1px solid #DCDCE0;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  .achievements-sub-container-top {
+    display: flex;
+  }
+  .achievements-info {
+    text-align: left;
+  }
+  .achievements-progress {
+    display: flex;
+  }
+
+}

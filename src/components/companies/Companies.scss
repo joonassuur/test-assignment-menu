@@ -1,0 +1,9 @@
+.company-container {
+  &:hover {
+    background: #F7F7FA;
+    cursor: pointer;
+  }
+  &.active {
+    background: rgba(55, 164, 71, 0.1);
+  }
+}
