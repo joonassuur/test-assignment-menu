@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setActiveCompany, getActiveCompany } from "../../redux/Index";
-import { Company } from "../../types/Company";
+import { setActiveCompany, getActiveCompany, setDropdown } from "../../../../redux/Index";
+import { Company } from "../../../../types/Company";
 import "./Companies.scss";
 
 function Companies() {
@@ -10,23 +10,25 @@ function Companies() {
 
   const companyList: Company[] = [
     {
-      name: "name OÜ",
-      subtitle: "subtitle",
+      name: "Name OÜ",
+      subtitle: "Subtitle 1",
       key: "comp1",
     },
     {
-      name: "name2 AS",
-      subtitle: "subtitle 2",
+      name: "Name2 AS",
+      subtitle: "",
       key: "comp2",
     },
     {
-      name: "name3 AS",
-      subtitle: "subtitle 3",
+      name: "Name3 AS",
+      subtitle: "",
       key: "comp3",
     },
   ];
   const setCompanyActive = (e: Company) => {
     dispatch(setActiveCompany(e));
+    // close DD after compeny is selected
+    dispatch(setDropdown(false))
   };
 
   return (
@@ -40,8 +42,11 @@ function Companies() {
             className={`item company-container ${isActive}`}
             onClick={() => setCompanyActive(e)}
           >
-            <div className="title">{e.name}</div>
-            <div className="subtitle">{e.subtitle}</div>
+            <div className="name">
+              <div className="title">{e.name}</div>
+              <div className="subtitle">{e.subtitle}</div>
+            </div>
+            {isActive && <span className="material-icons-outlined">check</span>}
           </div>
         );
       })}

@@ -1,0 +1,13 @@
+.settings-logout-container {
+  border-bottom: 1px solid #dcdce0;
+  .item {
+    display: flex;
+    align-items: center;
+    .material-icons-outlined {
+      margin-right: 5px;
+    }
+    &.exit {
+      color: #D33649;
+    }
+  }
+}

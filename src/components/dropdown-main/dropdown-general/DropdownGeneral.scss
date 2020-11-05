@@ -1,0 +1,19 @@
+.dropdown-general {
+  .head {
+    color: #717175;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 16px;
+  }
+  .item {
+    cursor: pointer;
+    &:hover {
+      background: #F7F7FA;
+      cursor: pointer;
+    }
+    &:active {
+      background: #EEEEF2;
+    }
+  }
+}

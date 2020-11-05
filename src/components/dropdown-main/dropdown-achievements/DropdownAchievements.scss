@@ -1,0 +1,56 @@
+.dropdown-achievements {
+  .progress-container {
+    align-items: center;
+    display: flex;
+    .progress {
+      width: 80%;
+    }
+    .progress-count {
+      width: 20%;
+      text-align: right;
+    }
+  }
+  .item:not(:first-child) {
+    border-bottom: 1px solid #eeeef2;
+    padding: 10px 0;
+    margin: 0 16px;
+  }
+  .title,
+  .subtitle {
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 14px;
+    &.main {
+      font-size: 1em;
+      .material-icons {
+        cursor: pointer;
+      }
+    }
+  }
+  .title.main {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 16px;
+    border-bottom: 1px solid #dcdce0;
+    .material-icons {
+      margin-right: 5px;
+    }
+  }
+  .item.completed {
+    .title,
+    .progress-count {
+      color: #37a447;
+    }
+    progress::-webkit-progress-value {
+      background-color: #37a447;
+    }
+    progress::-webkit-progress-bar {
+      background-color: #37a447;
+    }
+    progress::-moz-progress-bar {
+      background-color: #37a447;
+    }
+  }
+}

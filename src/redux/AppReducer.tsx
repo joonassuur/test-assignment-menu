@@ -1,4 +1,12 @@
-const INITIAL_STATE = { dropdownOpen: false, activeCompany: "", activeDD: "general" };
+const INITIAL_STATE = {
+  dropdownOpen: false,
+  activeCompany: {
+    name: "name OÜ",
+    subtitle: "subtitle",
+    key: "comp1",
+  },
+  activeDD: "general",
+};
 
 function AppReducer(
   state = INITIAL_STATE,

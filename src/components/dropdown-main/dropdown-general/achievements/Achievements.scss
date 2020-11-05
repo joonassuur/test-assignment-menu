@@ -1,18 +1,25 @@
 .achievements-container {
   display: flex;
-  border-top: 1px solid #DCDCE0;
-  border-bottom: 1px solid #DCDCE0;
+  border-top: 1px solid #dcdce0;
+  border-bottom: 1px solid #dcdce0;
   flex-direction: column;
-  align-items: center;
   align-items: flex-start;
+  .dot {
+    margin: 0 5px; 
+  }
   .achievements-sub-container-top {
     display: flex;
+    align-items: center;
+    .settings-icon {
+      margin-right: 5px;
+    }
   }
   .achievements-info {
     text-align: left;
   }
   .achievements-progress {
     display: flex;
+    margin-top: 5px;
+    width: 100%;
   }
-
 }

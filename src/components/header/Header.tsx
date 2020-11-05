@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getDropdown, setDropdown, getActiveCompany } from "../../redux/Index";
 
@@ -20,7 +20,7 @@ function Header() {
         <div className="subtitle">{activeCompany.name}</div>
       </div>
       <div className="settings-icon" onClick={toggleDD}>
-        <span className="material-icons">settings</span>
+        <span className="material-icons-outlined">settings</span>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { setActiveDD } from "../../redux/Index";
+import { setActiveDD } from "../../../../redux/Index";
 import "./Achievements.scss";
 
 function Achievements() {
@@ -14,16 +14,16 @@ function Achievements() {
     <div className="achievements-container item" onClick={toggleAchievements}>
       <div className="achievements-sub-container-top">
         <div className="settings-icon">
-          <span className="material-icons">school</span>
+          <span className="material-icons-outlined">school</span>
         </div>
         <div className="achievements-info">
           <div className="title">Achievements</div>
-          <div className="subtitle">3/11 done * 27%</div>
+          <div className="subtitle">3/11 done <span className="dot">·</span>  27%</div>
         </div>
       </div>
       <div className="achievements-progress">
         <progress
-          className="progress small-bottom-margin"
+          className="progress"
           value="27"
           max="100"
         ></progress>

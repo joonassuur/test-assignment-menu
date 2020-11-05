@@ -1,0 +1,26 @@
+.company-container {
+  .material-icons-outlined {
+    font-size: 1em;
+  }
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &:hover {
+    background: #f7f7fa;
+    cursor: pointer;
+  }
+  &:active {
+    background: #eeeef2;
+  }
+  &:focus,
+  &.active {
+    * {
+      color: #157123;
+    }
+    background: rgba(55, 164, 71, 0.1);
+    &:focus,
+    &:hover {
+      background: rgba(55, 164, 71, 0.2) !important;
+    }
+  }
+}
