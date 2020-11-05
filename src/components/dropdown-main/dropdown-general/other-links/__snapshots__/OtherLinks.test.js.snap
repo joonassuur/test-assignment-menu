@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherLinks component Matches the snapshot 1`] = `
+<div
+  className="otherlinks-container"
+>
+  <div
+    className="item"
+    onClick={[Function]}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      phone_iphone
+    </span>
+    <span>
+      Get the mobile app
+    </span>
+  </div>
+  <div
+    className="item"
+    onClick={[Function]}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      people
+    </span>
+    <span>
+      Community
+    </span>
+  </div>
+  <div
+    className="item"
+    onClick={[Function]}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      book
+    </span>
+    <span>
+      Knowledge base
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsLogout component Matches the snapshot 1`] = `
+<div
+  className="settings-logout-container"
+>
+  <div
+    className="item"
+    onClick={[Function]}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      settings
+    </span>
+    <span>
+      Settings
+    </span>
+  </div>
+  <div
+    className="item exit"
+    onClick={[Function]}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      exit_to_app
+    </span>
+    <span>
+      Log out
+    </span>
+  </div>
+</div>
+`;

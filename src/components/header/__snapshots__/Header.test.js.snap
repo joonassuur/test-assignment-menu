@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Matches the snapshot 1`] = `
+<div
+  className="header-container"
+>
+  <div
+    className="user-info"
+  >
+    <div
+      className="title"
+    >
+      Elon Musk
+    </div>
+    <div
+      className="subtitle"
+    />
+  </div>
+  <div
+    className="settings-icon"
+    onClick={[Function]}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      settings
+    </span>
+  </div>
+</div>
+`;

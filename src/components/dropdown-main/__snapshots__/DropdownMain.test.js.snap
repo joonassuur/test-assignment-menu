@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownMain component Matches the snapshot 1`] = `
+<div
+  className="dropdown-container"
+>
+  <div
+    className="dropdown-general"
+  >
+    <div
+      className="head"
+    >
+      Your Companies
+    </div>
+    <div
+      className="companies-container"
+    >
+      <div
+        className="item company-container "
+        onClick={[Function]}
+      >
+        <div
+          className="name"
+        >
+          <div
+            className="title"
+          >
+            Name OÜ
+          </div>
+          <div
+            className="subtitle"
+          >
+            Subtitle 1
+          </div>
+        </div>
+        
+      </div>
+      <div
+        className="item company-container "
+        onClick={[Function]}
+      >
+        <div
+          className="name"
+        >
+          <div
+            className="title"
+          >
+            Name2 AS
+          </div>
+          <div
+            className="subtitle"
+          >
+            
+          </div>
+        </div>
+        
+      </div>
+      <div
+        className="item company-container "
+        onClick={[Function]}
+      >
+        <div
+          className="name"
+        >
+          <div
+            className="title"
+          >
+            Name3 AS
+          </div>
+          <div
+            className="subtitle"
+          >
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="achievements-container item"
+      onClick={[Function]}
+    >
+      <div
+        className="achievements-sub-container-top"
+      >
+        <div
+          className="settings-icon"
+        >
+          <span
+            className="material-icons-outlined"
+          >
+            school
+          </span>
+        </div>
+        <div
+          className="achievements-info"
+        >
+          <div
+            className="title"
+          >
+            Achievements
+          </div>
+          <div
+            className="subtitle"
+          >
+            3/11 done 
+            <span
+              className="dot"
+            >
+              ·
+            </span>
+              27%
+          </div>
+        </div>
+      </div>
+      <div
+        className="achievements-progress"
+      >
+        <progress
+          className="progress"
+          max="100"
+          value="27"
+        />
+      </div>
+    </div>
+    <div
+      className="otherlinks-container"
+    >
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons-outlined"
+        >
+          phone_iphone
+        </span>
+        <span>
+          Get the mobile app
+        </span>
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons-outlined"
+        >
+          people
+        </span>
+        <span>
+          Community
+        </span>
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons-outlined"
+        >
+          book
+        </span>
+        <span>
+          Knowledge base
+        </span>
+      </div>
+    </div>
+    <div
+      className="settings-logout-container"
+    >
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons-outlined"
+        >
+          settings
+        </span>
+        <span>
+          Settings
+        </span>
+      </div>
+      <div
+        className="item exit"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons-outlined"
+        >
+          exit_to_app
+        </span>
+        <span>
+          Log out
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

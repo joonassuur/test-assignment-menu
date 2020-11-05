@@ -35,7 +35,7 @@ function Companies() {
     <div className="companies-container">
       {companyList.map((e) => {
         let isActive = "";
-        e.key === activeCompany.key ? (isActive = "active") : (isActive = "");
+        e.key === activeCompany?.key ? (isActive = "active") : (isActive = "");
         return (
           <div
             key={e.key}

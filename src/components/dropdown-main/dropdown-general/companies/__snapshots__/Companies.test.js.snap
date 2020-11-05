@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Companies component Matches the snapshot 1`] = `
+<div
+  className="companies-container"
+>
+  <div
+    className="item company-container "
+    onClick={[Function]}
+  >
+    <div
+      className="name"
+    >
+      <div
+        className="title"
+      >
+        Name OÜ
+      </div>
+      <div
+        className="subtitle"
+      >
+        Subtitle 1
+      </div>
+    </div>
+    
+  </div>
+  <div
+    className="item company-container "
+    onClick={[Function]}
+  >
+    <div
+      className="name"
+    >
+      <div
+        className="title"
+      >
+        Name2 AS
+      </div>
+      <div
+        className="subtitle"
+      >
+        
+      </div>
+    </div>
+    
+  </div>
+  <div
+    className="item company-container "
+    onClick={[Function]}
+  >
+    <div
+      className="name"
+    >
+      <div
+        className="title"
+      >
+        Name3 AS
+      </div>
+      <div
+        className="subtitle"
+      >
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;

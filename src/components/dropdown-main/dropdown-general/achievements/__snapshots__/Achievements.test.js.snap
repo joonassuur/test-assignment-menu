@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Achievements component Matches the snapshot 1`] = `
+<div
+  className="achievements-container item"
+  onClick={[Function]}
+>
+  <div
+    className="achievements-sub-container-top"
+  >
+    <div
+      className="settings-icon"
+    >
+      <span
+        className="material-icons-outlined"
+      >
+        school
+      </span>
+    </div>
+    <div
+      className="achievements-info"
+    >
+      <div
+        className="title"
+      >
+        Achievements
+      </div>
+      <div
+        className="subtitle"
+      >
+        3/11 done 
+        <span
+          className="dot"
+        >
+          ·
+        </span>
+          27%
+      </div>
+    </div>
+  </div>
+  <div
+    className="achievements-progress"
+  >
+    <progress
+      className="progress"
+      max="100"
+      value="27"
+    />
+  </div>
+</div>
+`;
