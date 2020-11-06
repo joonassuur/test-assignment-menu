@@ -1,17 +1,13 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getDropdown, setDropdown, getActiveCompany } from "../../redux/Index";
+import { useSelector } from "react-redux";
+import { getActiveCompany } from "../../redux/Index";
+import useComponentVisible from "../component-visible/ComponentVisible";
 
 import "./Header.scss";
 
 function Header() {
-  const dropDownState = useSelector(getDropdown);
+  useComponentVisible();
   const activeCompany = useSelector(getActiveCompany);
-  const dispatch = useDispatch();
-
-  const toggleDD = () => {
-    dispatch(setDropdown(!dropDownState));
-  };
 
   return (
     <div className="header-container">
@@ -19,7 +15,7 @@ function Header() {
         <div className="title">Elon Musk</div>
         <div className="subtitle">{activeCompany?.name}</div>
       </div>
-      <div className="settings-icon" onClick={toggleDD}>
+      <div className="settings-icon">
         <span className="material-icons-outlined">settings</span>
       </div>
     </div>

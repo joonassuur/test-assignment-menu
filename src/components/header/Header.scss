@@ -1,16 +1,23 @@
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 1em;
-    .user-info {
-        margin-right: 10px;
-        text-align: right;
-        .subtitle {
-            margin-top: 2px;
-        }
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+  .user-info {
+    margin-right: 10px;
+    text-align: right;
+    .subtitle {
+      margin-top: 2px;
     }
-    .settings-icon {
-        cursor: pointer;
-    }
+  }
+  .settings-icon {
+    cursor: pointer;
+    // disable selection(highlight) of settings icon
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 }

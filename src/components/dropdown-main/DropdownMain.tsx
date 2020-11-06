@@ -9,7 +9,7 @@ import DropdownAchievements from "./dropdown-achievements/DropdownAchievements";
 import "./DropdownMain.scss";
 
 function DropdownMain() {
-  const { ref } = useComponentVisible(true);
+  const ref = useComponentVisible();
 
   const activeDD = useSelector(getActiveDD);
 
